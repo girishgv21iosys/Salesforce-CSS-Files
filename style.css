@@ -1,3 +1,17 @@
 .heading1 {
   color: blue;
 }
+
+
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+  <link rel="stylesheet" href="https://raw.githubusercontent.com/girishgv21iosys/Salesforce-CSS-Files/master/style.css" />    
+  <div>
+      <h1 class="heading1">Welcome, {!$user.firstname}!</h1>
+      <p>This is your new Page</p>
+  </div>
+  <div>
+      <img src="https://1.bp.blogspot.com/-wsUJrPamSPo/Wontmi6Yb9I/AAAAAAAAZ6Q/S4D-GWhFhEgvr4KNtcSd0twjELHXcAvUwCLcBGAs/s1600/potion_master_by_doberlady-d36syg9.jpg" width="50%" />
+  </div>
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>
